@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buses Dubai – Luxury Transport</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="container nav-content">
+        <h2 class="logo">Buses<span>Dubai</span></h2>
+        <nav class="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#services">Services</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#gallery">Fleet</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero-section">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h1>Luxury Bus Rentals in Dubai</h1>
+            <p>
+              Experience comfort and elegance on every journey with our
+              state-of-the-art luxury buses. Perfect for corporate travel, group
+              tours, and special events.
+            </p>
+            <a href="#contact" class="btn btn-primary">Book Now</a>
+          </div>
+          <div class="hero-image">
+            <img src="/luxury-bus-services.png" alt="Luxury Yutong Bus Dubai" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="services-section">
+        <div class="container">
+          <h2>Our Services</h2>
+          <div class="service-grid">
+            <div class="service-card">
+              <img src="/corporate.png" alt="Corporate Travel" />
+              <h3>Corporate Travel</h3>
+              <p>
+                Reliable and punctual luxury buses for business meetings,
+                conferences, and corporate outings.
+              </p>
+            </div>
+            <div class="service-card">
+              <img src="/tour.png" alt="City Tours" />
+              <h3>City Tours</h3>
+              <p>
+                Explore Dubai’s iconic landmarks with our guided luxury tour
+                packages for groups of any size.
+              </p>
+            </div>
+            <div class="service-card">
+              <img src="/event.png" alt="Event Transport" />
+              <h3>Event Transport</h3>
+              <p>
+                Comfortable transport for weddings, exhibitions, and special
+                events with premium interiors.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Us Section -->
+      <section id="why-us" class="why-section">
+        <div class="container">
+          <h2>Why Choose Us?</h2>
+          <div class="features">
+            <div class="feature-card">
+              <h3>Comfort & Safety</h3>
+              <p>
+                Our buses are equipped with modern amenities and maintained to
+                ensure a safe, relaxing trip.
+              </p>
+            </div>
+            <div class="feature-card">
+              <h3>Professional Drivers</h3>
+              <p>
+                Our trained and experienced chauffeurs guarantee a smooth and
+                punctual travel experience.
+              </p>
+            </div>
+            <div class="feature-card">
+              <h3>Affordable Packages</h3>
+              <p>
+                Flexible pricing and packages tailored to your group’s needs and
+                budget.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Fleet Gallery -->
+      <section id="gallery" class="gallery-section">
+        <div class="container">
+          <h2>Our Luxury Fleet</h2>
+          <div class="gallery-grid">
+            <img src="/bus1.png" alt="Luxury Bus 1" />
+            <img src="/bus2.png" alt="Luxury Bus 2" />
+            <img src="/bus3.png" alt="Luxury Bus 3" />
+            <img src="/bus4.png" alt="Luxury Bus 4" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container contact-content">
+          <div class="contact-text">
+            <h2>Get in Touch</h2>
+            <p>
+              Have questions or ready to book your ride? Fill out the form below
+              and our team will contact you shortly.
+            </p>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="4"></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2025 Buses Dubai. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      window.addEventListener("scroll", () => {
+        const nav = document.querySelector(".navbar");
+        nav.classList.toggle("scrolled", window.scrollY > 50);
+      });
+    </script>
+  </body>
+</html>
